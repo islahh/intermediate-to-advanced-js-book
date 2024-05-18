@@ -20,6 +20,22 @@ console.log(person.name); // Lydia
 console.log(person["age"]); // 21
 ```
 
+# Short-hand property names
+
+If you have variables with the same name as the key names, you can use the shorthand property name syntax:
+
+```js
+const name = "Lydia";
+const age = 21;
+
+const person = {
+  name,
+  age,
+};
+```
+
+Here, the properties `name` and `age` will be created with the values of the variables `name` and `age`. No need to repeat the variable names!
+
 # Destructuring
 
 Destructuring allows you to extract multiple properties from an object and store them in variables. Here's an example:

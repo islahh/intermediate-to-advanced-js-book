@@ -22,10 +22,11 @@ Outline:
    - Destructuring arrays
 7. **Functions**
    - Function declaration and expression
+   - Arrow functions
+   - `this` context
+   - Closures
    - Higher-order functions
    - Returning functions
-   - Closures
-   - Practical examples of complex functions (e.g., deep cloning an object)
 8. **Prototypes and Inheritance**
    - Prototype in JavaScript, `__proto__`
    - Why JavaScript has prototypes
@@ -44,16 +45,35 @@ Outline:
 14. **Intervals and Timeouts**
     - Ins and outs of `setInterval` and `setTimeout`
     - Tips and tricks, such as implementing your own throttling function
-15. **Promises and Async/Await**
+15. **Promises**
     - Explaining what promises are and their states
-    - Microtask queue and the event loop
+    - Creating promises with `new Promise`
+    - Chaining promises with `.then`
+    - Handling errors with `.catch`
+    - Promises and the event loop
+16. **Async Functions, async/await**
+    - an async function automatically returns a promise
+    - `await` keyword
     - Error handling with `try...catch`
-    - Patterns and tricks when working with promises
-16. **HTTP and Fetch API**
+17. **HTTP and Fetch API**
     - HTTP methods explained
     - Fetch API: Understanding responses, `response.json()`, handling errors
     - HTTP status codes
-17. **JavaScript Modules**
+18. **JavaScript Modules**
     - Named and default imports
     - Import syntax using relative paths
     - Renaming imports
+
+---
+
+More ideas for the course:
+
+- hidden classes
+- performant javascript
+- map
+- sets
+- weakmap
+- regexes
+- custom errors
+- fun functions such as `debounce`, `throttle`, `memoize`, deep clone etc. look at lodash and underscore for inspiration
+- inversion of control
