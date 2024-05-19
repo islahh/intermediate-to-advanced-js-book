@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Objects</title>
+  </head>
+  <body>
+    <h1>Objects</h1>
+    <script>
+      let personProto = {
+        greet() {
+          console.log("Hello");
+        },
+      };
+
+      let john = Object.create(personProto);
+
+      console.log(Object.getPrototypeOf(john) === personProto); // true
+
+      console.log(john.greet()); // Hello
+
+      const newProto = {
+        bye() {
+          console.log("Bye");
+        },
+      };
+
+      Object.setPrototypeOf(john, newProto);
+
+      console.log(Object.getPrototypeOf(john) === newProto); // true
+
+      console.log(john.bye()); // Bye
+
+      // console.log(john.greet()); // Error
+    </script>
+  </body>
+</html>
