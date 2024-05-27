@@ -91,7 +91,7 @@ We updated the value in memory location 1. It's only natural that both `obj1` an
 
 By now, you should be able to understand why `1 === 1` is true but `{}` is false. It's all about where they point to in memory. When you compare two primitive values, you're comparing the two memory locations they point to. If they point to the same location, they're equal. If they don't, they're not.
 
-Objects are always newly created in memory. A new object means a new memory location.
+Objects are always newly created in memory. A new object means a new memory location. This memory is where objects are created is called the heap.
 
 # Checking for a type with `typeof` operator
 
