@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Objects</title>
+  </head>
+  <body>
+    <h1>Objects</h1>
+    <script>
+      // setTimeout(() => {
+      //   console.log("first set timeout: callback queue");
+      // }, 0);
+
+      // const promise = new Promise((resolve, reject) => {
+      //   console.log("Promise executed");
+      //   resolve("Promise resolved");
+      // });
+
+      // const promise2 = new Promise((resolve, reject) => {
+      //   console.log("Promise2 executed");
+      //   resolve("Promise2 resolved");
+      // });
+
+      // setTimeout(() => {
+      //   console.log("second set timeout: callback queue");
+      // }, 0);
+
+      // promise2.then((data) => {
+      //   console.log(
+      //     "This is the handler executed by the microtask queue. Promise2 resolved with data:",
+      //     data
+      //   );
+      // });
+
+      // promise.then((data) => {
+      //   console.log(
+      //     "This is the handler executed by the microtask queue. Promise resolved with data:",
+      //     data
+      //   );
+      // });
+
+      const urls = [
+        "https://jsonplaceholder.typicode.com/posts/1",
+        "https://jsonplaceholder.typicode.com/posts/2",
+        "https://jsonplaceholder.typicode.com/posts/3",
+      ];
+
+      for (const url of urls) {
+        fetch(url)
+          .then((response) => response.json())
+          .then((data) => {
+            console.log("data", data);
+          });
+      }
+    </script>
+  </body>
+</html>
