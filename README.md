@@ -2,9 +2,9 @@
 
 This is something I originally did as an outline for a course. But I've decided to turn it into a free book.
 
-I'm also accepting PRs for this book, if you wanna contribute and write one of the remaining chapters.
+I'm gonna continue adding chapters over time.
 
-And yes, I want it to include very deep things such as hidden classes (which you really never learn about).
+Stay tuned.
 
 # Outline
 
@@ -30,9 +30,7 @@ And yes, I want it to include very deep things such as hidden classes (which you
 
 Dive into a chapter. Read the README.
 
----
-
-# More ideas for the book
+# More ideas for the book (notes for myself)
 
 - hidden classes
 - javascript modules
