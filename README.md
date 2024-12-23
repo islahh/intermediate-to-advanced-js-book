@@ -26,6 +26,10 @@ And yes, I want it to include very deep things such as hidden classes (which you
 16. **HTTP methods and codes**
 17. **Fetch API**
 
+# How to go through this book?
+
+Dive into a chapter. Read the README.
+
 ---
 
 # More ideas for the book
