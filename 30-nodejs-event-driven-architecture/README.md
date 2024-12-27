@@ -50,7 +50,6 @@ shop.on('coffee-ready', (customerName, coffeeType) => {
 shop.placeOrder('Alice', 'Latte');
 shop.placeOrder('Bob', 'Espresso');
 
-```javascript
 Alice has ordered a Latte.
 Bob has ordered an Espresso.
 Ding! Alice, your Latte is ready!
